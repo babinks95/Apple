@@ -1,0 +1,45 @@
+nav{
+    
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: center;
+    
+}
+nav li {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 10px;
+    
+}
+nav li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family:Helvetica;
+}
+nav img {
+    width: auto;
+    height: 20px;
+    margin-top: 7px;
+    margin-left: 5px;
+    
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+section#cover{
+    background-image: url(lakaka.jpg);
+    background-size: cover;
+    height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position-y: -200px;
+}
+head{
+    h1{
+        font-family: Helvetica;
+    }
+}
